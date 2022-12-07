@@ -1,5 +1,5 @@
 {
-  "name": "laravelista/lumen-vendor-publish",
+  "name": "mazfreelance/lumen-vendor-publish",
   "description": "vendor:publish for Lumen framework.",
   "license": "MIT",
   "keywords": [
@@ -11,13 +11,17 @@
   ],
   "authors": [
     {
+      "name": "Mazfreelance",
+      "email": "freelance@mohdazmin.com"
+    },
+    {
       "name": "Mario Bašić",
       "email": "mario@laravelista.hr"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Laravelista\\LumenVendorPublish\\": "src"
+      "Mazfreelance\\LumenVendorPublish\\": "src"
     }
   },
   "minimum-stability": "stable",

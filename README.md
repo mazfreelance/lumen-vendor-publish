@@ -1,10 +1,8 @@
 # `vendor:publish` for Lumen framework
 
-**Abandoned. Do not use.** See [here](https://github.com/laravelista/lumen-vendor-publish/issues/16#issuecomment-917424678) for explanation.
+[`laravelista/lumen-vendor-publish`](https://github.com/laravelista/lumen-vendor-publish) is **abandoned**.
 
 This package contains a single command borrowed from the Laravel framework that enables you to use `php artisan vendor:publish` in your Lumen application.
-
-[![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=for-the-badge)](https://www.patreon.com/laravelista)
 
 ## Overview
 
@@ -15,7 +13,7 @@ This package contains a copy of the class from [`Illuminate/Foundation/Console/V
 ## Installation
 
 ```
-composer require laravelista/lumen-vendor-publish=^9.0
+composer require mazfreelance/lumen-vendor-publish=^9.0
 ```
 
 ## Usage
@@ -24,21 +22,17 @@ To be able to use it you have to add it to your `app/Console/Kernel.php` file:
 
 ```
 protected $commands = [
-    \Laravelista\LumenVendorPublish\VendorPublishCommand::class
+    \Mazfreelance\LumenVendorPublish\VendorPublishCommand::class
 ];
 ```
 
-## Sponsors & Backers
-
-I would like to extend my thanks to the following sponsors & backers for funding my open-source journey. If you are interested in becoming a sponsor or backer, please visit the [Backers page](https://mariobasic.com/backers).
-
 ## Contributing
 
-Thank you for considering contributing to LumenVendorPublish! The contribution guide can be found [Here](https://mariobasic.com/contributing).
+Thank you for considering contributing to LumenVendorPublish!
 
 ## Code of Conduct
 
-In order to ensure that the open-source community is welcoming to all, please review and abide by the [Code of Conduct](https://mariobasic.com/code-of-conduct).
+In order to ensure that the open-source community is welcoming to all.
 
 ## License
 

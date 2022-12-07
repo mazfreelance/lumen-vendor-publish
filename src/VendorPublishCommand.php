@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravelista\LumenVendorPublish;
+namespace Mazfreelance\LumenVendorPublish;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Laravelista\LumenVendorPublish\VendorTagPublished;
+use Mazfreelance\LumenVendorPublish\VendorTagPublished;
 use League\Flysystem\Filesystem as Flysystem;
 use League\Flysystem\Local\LocalFilesystemAdapter as LocalAdapter;
 use League\Flysystem\MountManager;

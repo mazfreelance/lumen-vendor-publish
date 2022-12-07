@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelista\LumenVendorPublish;
+namespace Mazfreelance\LumenVendorPublish;
 
 class VendorTagPublished
 {
